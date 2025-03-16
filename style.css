@@ -1,3 +1,204 @@
+/* Mobile Styles (max-width: 600px) */
+@media (max-width: 600px) {
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        margin: 0;
+    }
+
+    .logo img {
+        width: 40px; /* Ukuran logo lebih kecil */
+    }
+
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2em; /* Ukuran font lebih kecil */
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .hero-image img {
+        margin-top: 20px;
+    }
+
+    /* Best Sellers Section */
+    .best-sellers {
+        padding: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 1.5em;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Orchid Section */
+    .orchid-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    .orchid-content {
+        padding: 20px;
+    }
+
+    .orchid-content h1 {
+        font-size: 2em;
+    }
+
+    .orchid-content p {
+        font-size: 1em;
+    }
+
+    .shop-orchid {
+        padding: 10px 20px;
+    }
+}
+
+/* Tablet Styles (min-width: 601px) and (max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Header */
+    header {
+        padding: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .logo img {
+        width: 45px;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2em;
+    }
+
+    .hero-content p {
+        font-size: 1.1em;
+    }
+
+    /* Best Sellers Section */
+    .best-sellers {
+        padding: 30px;
+    }
+
+    .section-title h2 {
+        font-size: 1.8em;
+    }
+
+    .product-item {
+        width: 45%;
+        margin: 15px;
+    }
+
+    /* Orchid Section */
+    .orchid-section {
+        height: 70vh;
+    }
+
+    .orchid-content h1 {
+        font-size: 2.5em;
+    }
+
+    .orchid-content p {
+        font-size: 1.1em;
+    }
+}
+
+/* Desktop Styles (min-width: 1025px) */
+@media (min-width: 1025px) {
+    /* Header */
+    header {
+        padding: 20px;
+    }
+
+    .nav-links {
+        gap: 20px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 50px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+    }
+
+    /* Best Sellers Section */
+    .best-sellers {
+        padding: 40px;
+    }
+
+    .section-title h2 {
+        font-size: 2em;
+    }
+
+    .product-item {
+        width: 23%;
+        margin: 20px;
+    }
+
+    /* Orchid Section */
+    .orchid-section {
+        height: 100vh;
+    }
+
+    .orchid-content h1 {
+        font-size: 3em;
+    }
+
+    .orchid-content p {
+        font-size: 1.2em;
+    }
+}
+
 /* Gaya untuk body */
 body {
     margin: 0;
