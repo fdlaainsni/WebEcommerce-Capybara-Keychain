@@ -250,7 +250,7 @@ html {
 }
 
 /* Mobile Styles (max-width: 600px) */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     /* Header */
     header {
         flex-direction: column;
