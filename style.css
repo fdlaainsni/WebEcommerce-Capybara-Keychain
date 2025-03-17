@@ -260,12 +260,10 @@ html {
     }
 
     .nav-links {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap; /* Item akan wrap ke baris baru jika tidak muat */
+        flex-direction: column;
         gap: 10px;
         margin-top: 10px;
-        width: 100%;
+        width: 100%; /* Lebar penuh */
     }
 
     .nav-links a {
