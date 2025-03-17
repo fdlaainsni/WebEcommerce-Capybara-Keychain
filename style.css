@@ -256,16 +256,20 @@ html {
         flex-direction: column;
         align-items: flex-start;
         padding: 10px !important;
+        text-align: justify; /* Teks rata kanan kiri */
     }
 
     .nav-links {
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
+        width: 100%; /* Lebar penuh */
     }
 
     .nav-links a {
         margin: 0;
+        padding: 8px 0; /* Tambahkan padding untuk area klik yang lebih besar */
+        text-align: center; /* Teks di tengah untuk link navigasi */
     }
 
     .logo img {
@@ -276,33 +280,39 @@ html {
     .hero {
         flex-direction: column;
         padding: 20px;
+        text-align: justify; /* Teks rata kanan kiri */
     }
 
     .hero-content {
         max-width: 100%;
         margin-left: 0;
-        text-align: center;
+        text-align: justify; /* Teks rata kanan kiri */
     }
 
     .hero-content h1 {
         font-size: 2em; /* Ukuran font lebih kecil */
+        text-align: center; /* Judul tetap di tengah */
     }
 
     .hero-content p {
         font-size: 1em;
+        text-align: justify; /* Teks rata kanan kiri */
     }
 
     .hero-image img {
         margin-top: 20px;
+        width: 100%; /* Gambar memenuhi lebar container */
     }
 
     /* Best Sellers Section */
     .best-sellers {
         padding: 20px;
+        text-align: justify; /* Teks rata kanan kiri */
     }
 
     .section-title h2 {
         font-size: 1.5em;
+        text-align: center; /* Judul section tetap di tengah */
     }
 
     .product-grid {
@@ -313,12 +323,22 @@ html {
     .product-item {
         width: 100%;
         margin: 10px 0;
+        text-align: justify; /* Teks rata kanan kiri */
+    }
+
+    .product-item h3 {
+        text-align: center; /* Judul produk tetap di tengah */
+    }
+
+    .product-item p {
+        text-align: justify; /* Deskripsi produk rata kanan kiri */
     }
 
     /* Orchid Section */
     .orchid-section {
         height: auto;
         padding: 20px;
+        text-align: justify; /* Teks rata kanan kiri */
     }
 
     .orchid-content {
@@ -327,14 +347,19 @@ html {
 
     .orchid-content h1 {
         font-size: 2em;
+        text-align: center; /* Judul tetap di tengah */
     }
 
     .orchid-content p {
         font-size: 1em;
+        text-align: justify; /* Teks rata kanan kiri */
     }
 
     .shop-orchid {
         padding: 10px 20px;
+        display: block; /* Tombol memenuhi lebar container */
+        margin: 0 auto; /* Tombol di tengah */
+        text-align: center; /* Teks di tombol tetap di tengah */
     }
 }
 
